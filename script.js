@@ -43,6 +43,12 @@
 
                 } else {
                     inputVal.val(inputVal.val() + this.innerHTML);
+                    //изменение размера цифр
+                    if (inputVal.val().length > 9) {
+                        inputVal.css('font-size', '20px');
+                    } else {
+                        inputVal.css('font-size', '30px');
+                    }
                 }
             
 

@@ -52,3 +52,6 @@
 	background: orange;
 }
 
+#calc_value {
+	outline:none;
+}
